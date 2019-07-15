@@ -1,0 +1,51 @@
+(ExpressProject "my_libs"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\my_libs.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\my_libs.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (my_ic32
+      (FullPartName "my_ic32.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\WORK\MY_LIBS\MY_LIBS.OLB")
+      (DeviceIndex "0"))
+    (my_ic
+      (FullPartName "my_ic.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\WORK\MY_LIBS\MY_LIBS.OLB")
+      (DeviceIndex "0"))
+    (myfnd
+      (FullPartName "myfnd.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\WORK\MY_LIBS\MY_LIBS.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "C:\USERS\USER\DESKTOP\work\my_libs\my_libs.dsn")
+      (Path "Design Resources" "C:\USERS\USER\DESKTOP\work\my_libs\my_libs.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\my_libs.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -9 -38 0 200 0 401"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -38 192 1840 192 640")
+        (Scroll "-312 73")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\USER\DESKTOP\WORK\MY_LIBS\MY_LIBS.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
